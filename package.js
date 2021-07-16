@@ -9,7 +9,7 @@ Package.describe({
 });
 
 Package.onUse(function (api) {
-  api.versionsFrom('METEOR@1.10.2');
+  api.versionsFrom('METEOR@3.4');
 
   api.use('jquery', 'client');
   api.addFiles([
